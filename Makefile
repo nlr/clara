@@ -1,5 +1,5 @@
 build:
-	@go build -o bin/clara.exe
+	@go build -o bin/clara
 
 run: build
-	@./bin/clara.exe
+	@./bin/clara
