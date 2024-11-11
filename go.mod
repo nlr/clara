@@ -1,10 +1,10 @@
-module clara_bot
+module clara
 
 go 1.21
 
 require github.com/bwmarrin/discordgo v0.27.1
 
-require golang.org/x/net v0.20.0 // indirect
+require golang.org/x/net v0.23.0 // indirect
 
 require (
 	github.com/gorilla/websocket v1.5.1 // indirect
